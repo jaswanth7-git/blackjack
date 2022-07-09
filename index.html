@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackjack game</title>
+    <link rel="stylesheet" href="./blackjack.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-1">
+    <div>
+        <h1>Blackjack</h1>
+        <h2 id="head">lets play!</h2>
+    </div>
+    <div class="container-2" style="background-image: url(./back.jpeg)"> 
+        <div id="yourdiv" lass="flex-box-container-1"><h2>yourscore:<span id="yourscore">0</span></h2></div><br>
+
+
+        <div id="botdiv" class="flex-box-container-2"><h2>delarscore:<span id="botscore">0</span></h2></div><br>
+    </div>
+    <div class="button">
+        <button id="hitbtn" class="btn btn-primary">Hit</button>
+        <button id="standbtn" class="btn btn-warning">stand</button>
+        <button class="btn btn-danger" onClick="history.go(0)" VALUE="Refresh">playagain</button>
+    </div>
+    <div>
+        <audio id="hitsound" src="./assets/swish.m4a"></audio>
+        <audio id="standsound" src="./assets/aww.mp3"></audio>
+        <audio id = "busted" src="./assets/mistake.mp3"></audio>
+        <audio id="wonsound"  src="./assets/cash.mp3"></audio>
+        
+    </div>
+    </div>
+</body>
+</html>
+
+<script src="./blackjack.js">
+
+</script> 
