@@ -17,6 +17,8 @@
     justify-content: space-around;
     width: auto;
     background-size: cover;
+    
+    
 
     
 }
@@ -51,6 +53,7 @@
     height: auto;
     width: auto;
     
+    
 }
 
 .button{
@@ -66,4 +69,9 @@
 
 body{
     background-color: aquamarine;
+}
+.flex-box-container-2{
+    border-left: 6px solid rgb(255, 255, 255);
+  height: 200px;
+
 }

@@ -20,7 +20,7 @@ function random_card() {
     score = score + lst_vals.vals[rand];
     if (score < 21) {
         document.getElementById(`${current_player}score`).innerHTML = score;
-        cardimg.src = `./assets/${pic}.png`;
+        cardimg.src = `./assets/${pic}.svg`;
         cardimg.height = '150';
         cardimg.width = '85';
         document.querySelector(`#${current_player}div`).appendChild(cardimg);
@@ -28,7 +28,7 @@ function random_card() {
     else {
         document.getElementById(`${current_player}score`).innerHTML = 'busted';
         document.getElementById(`${current_player}score`).style.color = 'red';
-        cardimg.src = `./assets/${pic}.png`;
+        cardimg.src = `./assets/${pic}.svg`;
         cardimg.height = '150';
         cardimg.width = '85';
         document.querySelector(`#${current_player}div`).appendChild(cardimg);
